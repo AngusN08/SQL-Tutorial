@@ -32,4 +32,16 @@
 --                 ('7','5','Maths','82'),
 --                 ('8','5','Science','5')
 
-SELECT * FROM Students;
+-- SELECT * FROM Students;
+
+-- SELECT firstname, lastname FROM Students;
+
+-- SELECT * FROM Students LIMIT 5;
+
+-- SELECT firstname, dob FROM Students
+--     WHERE firstname LIKE 'B%';
+
+-- SELECT lastname, dob FROM Students;
+
+-- SELECT firstname, lastname FROM Students
+-- ORDER BY lastname ASC; 
