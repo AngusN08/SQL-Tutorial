@@ -45,3 +45,54 @@
 
 -- SELECT firstname, lastname FROM Students
 -- ORDER BY lastname ASC; 
+
+-- SELECT firstname, lastname, dob FROM Students
+-- WHERE substr(dob, -4) = '2007';
+
+-- SELECT * FROM Marks
+
+
+-- SELECT * FROM Marks
+-- WHERE subject = 'English';
+
+-- SELECT subject, mark FROM Marks
+-- WHERE mark < 50;
+
+-- SELECT subject, mark FROM Marks
+-- WHERE mark >= 50;
+
+-- UPDATE Students
+--     SET firstname = 'Nick'
+--     WHERE id = 2;
+
+-- UPDATE Marks
+--     SET subject = 'Maths Advanced'
+--     WHERE subject = 'Maths';
+
+-- UPDATE Students
+--     SET lastname = 'Simpson'
+--     WHERE firstname = 'Jill';
+
+-- UPDATE Marks
+--     SET subject = 'English Standard'
+--     WHERE subject = 'English';
+
+-- UPDATE Marks
+--     SET mark = 150
+--     WHERE subject = 'Science';
+
+-- DELETE FROM Students
+--     WHERE id = 2;
+
+-- INSERT INTO Students(firstname, lastname, dob)
+--              VALUES ('Bobby','Bob','3/1/2008');
+
+-- DELETE FROM Marks
+--     WHERE mark < 25;
+
+-- DELETE FROM Students
+--     WHERE lastname = 'Simpson';
+
+-- DELETE FROM Marks
+--     WHERE mark > 100;
+
