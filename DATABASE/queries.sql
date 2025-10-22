@@ -49,7 +49,7 @@
 -- SELECT firstname, lastname, dob FROM Students
 -- WHERE substr(dob, -4) = '2007';
 
--- SELECT * FROM Marks
+-- SELECT * FROM Marks;
 
 
 -- SELECT * FROM Marks
@@ -96,3 +96,26 @@
 -- DELETE FROM Marks
 --     WHERE mark > 100;
 
+-- SELECT COUNT(id), firstname
+--        FROM Students
+--        GROUP BY firstname;
+
+-- SELECT SUM(mark), subject
+--        FROM Marks
+--        GROUP BY subject;
+
+-- SELECT AVG(mark), subject
+--        FROM Marks
+--        GROUP BY subject;
+
+-- SELECT COUNT(id), firstname, lastname
+--        FROM Students
+--        GROUP BY lastname;
+
+-- SELECT MAX(mark), subject
+--        FROM Marks
+--        GROUP BY Subject;
+
+-- SELECT MAX(mark), subject
+--        FROM Marks
+--        GROUP BY subject;
