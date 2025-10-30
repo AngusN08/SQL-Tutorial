@@ -124,3 +124,32 @@
 --        Marks.subject, Marks.mark
 -- FROM Students JOIN Marks
 -- ON Students.id=Marks.student_id;
+
+-- INSERT INTO Marks (student_id, subject, mark)
+-- SELECT id, 'Math', 85
+-- FROM Students;
+
+-- INSERT INTO Marks (student_id, subject, mark)
+-- SELECT id, 'Science', 92
+-- FROM Students;
+
+-- SELECT *
+-- FROM Students
+-- JOIN Marks
+-- ON Students.id = Marks.student_id
+
+-- SELECT *
+-- FROM Students
+-- JOIN Marks
+-- ON Students.id = Marks.student_id
+-- WHERE Marks.mark >= 50;
+
+SELECT
+    Students.firstname,
+    Students.lastname,
+    Marks.subject,
+    Marks.mark
+FROM Students
+JOIN Marks
+ON Students.id = Marks.student_id
+WHERE Marks.subject LIKE 'English%';
