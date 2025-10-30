@@ -119,3 +119,8 @@
 -- SELECT MAX(mark), subject
 --        FROM Marks
 --        GROUP BY subject;
+
+-- SELECT Students.firstname, Students.lastname,
+--        Marks.subject, Marks.mark
+-- FROM Students JOIN Marks
+-- ON Students.id=Marks.student_id;
